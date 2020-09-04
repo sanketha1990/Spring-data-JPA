@@ -1,7 +1,5 @@
 package com.jpa.audit;
 
-import javax.websocket.server.PathParam;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.jpa.audit.model.Book;
 import com.jpa.audit.repository.BookRepository;
-import com.sun.el.stream.Optional;
 
 @SpringBootApplication
 @RestController
